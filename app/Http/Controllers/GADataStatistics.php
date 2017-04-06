@@ -138,7 +138,7 @@ class GADataStatistics extends Controller
             ]
         ]);
 
-        return view('GAapi.statistics' );//compact('data')
+        return view('GAapi.statistics' );
 
     }
 }
